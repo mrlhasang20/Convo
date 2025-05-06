@@ -16,14 +16,15 @@ The Universal Image Converter solves this by providing:
 - **Custom Save Folder**: Set a default save location for convenience.
 - **Robustness**: Error handling and logging for reliable operation.
 
+---
+
 ## Installation (For Developers)
 
 1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/your-username/image-converter.git
-   cd image-converter
-   ```
+    ```bash
+    git clone https://github.com/your-username/Convo.git
+    cd Convo
+    ```
 
 2. **Create a Virtual Environment**:
 
@@ -55,12 +56,14 @@ The Universal Image Converter solves this by providing:
 2. **Run the App**:
 
    - Double-click `main.exe` (single-file) or `main/main.exe` (folder).
-   - On Windows, you may see a “Windows protected your PC” warning. Click “More info” &gt; “Run anyway”.
+   - On Windows, you may see a “Windows protected your PC” warning. Click **“More info” > “Run anyway”**.
 
 3. **System Requirements**:
 
    - Windows 10 or later (macOS/Linux support planned).
    - 100 MB free disk space.
+
+---
 
 ## Building the Executable (For Developers)
 
@@ -70,7 +73,6 @@ To create a standalone `.exe` (Windows):
 
    ```bash
    pip install pyinstaller
-   ```
 2. Build the executable:
 
    ```bash
