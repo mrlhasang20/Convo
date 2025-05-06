@@ -50,14 +50,15 @@ The Universal Image Converter solves this by providing:
 1. **Download the Executable**:
 
    - Visit the Releases page.
-   - Download the latest `main.exe` (Windows) or the zipped `main` folder.
+   - Download the latest zipped `Convo.zip` folder.
    - No installation or Python required!
 
 2. **Run the App**:
 
-   - Double-click `main.exe` (single-file) or `main/main.exe` (folder).
-   - On Windows, you may see a “Windows protected your PC” warning. Click **“More info” > “Run anyway”**.
-
+   - Extract the Convo.zip file.
+   - Double-click Convo.exe to run the application.
+   - On Windows, you may see a “Windows protected your PC” warning. Click More info > Run anyway.
+     
 3. **System Requirements**:
 
    - Windows 10 or later (macOS/Linux support planned).
