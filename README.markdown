@@ -1,4 +1,4 @@
-# Convo
+# Convo.
 
 A user-friendly desktop application to convert images (JPG, PNG, HEIC) to JPEG, with features for batch conversion, image comparison, and customizable save locations.
 
