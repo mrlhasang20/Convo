@@ -15,7 +15,7 @@ The Universal Image Converter solves this by providing:
 - **Image Comparison**: View original and converted images side-by-side.
 - **Custom Save Folder**: Set a default save location for convenience.
 - **Robustness**: Error handling and logging for reliable operation.
-
+- **Privacy First**: Unlike online converters, Convo-v2 processes all images locally on your computer, ensuring that your sensitive images are not uploaded to external servers or websites.
 ---
 
 ## Screenshots
