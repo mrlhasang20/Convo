@@ -1,22 +1,27 @@
 # Convo
 
-A user-friendly desktop application to convert images (JPG, PNG, HEIC) to JPEG, with features for batch conversion, image comparison, and customizable save locations.
+A user-friendly desktop application to convert RAW ( CR2, AR2, NEF) and  othere images format (JPG, PNG, HEIC) to JPEG, with features for batch conversion, image comparison, and customizable save locations without losing quality.
 
 ## Problem
 
-Many users, especially on Windows, struggle with HEIC images (common on iPhones) due to limited native support. Existing converters are often complex, lack batch processing, or have outdated interfaces. I needed a simple, modern tool to convert HEIC and other formats to JPEG efficiently.
+Many users, especially on Windows, struggle with HEIC images (common on iPhones), RAW image files like NEF and many more due to limited native support. Existing converters are often complex, lack batch processing, or have outdated interfaces. I needed a simple, modern tool to convert raw, HEIC and other formats to JPEG efficiently wtihout losing any quality of the image.
 
 ## Solution
 
 The Universal Image Converter solves this by providing:
 
-- **Batch Conversion**: Convert multiple images (JPG, PNG, HEIC) to JPEG in one go.
+- **Batch Conversion**: Convert multiple images (CR2, AR2, NEF, JPG, PNG, HEIC, etc) to JPEG in one go.
 - **Modern UI**: Clean, responsive interface with light/dark mode and tooltips.
 - **Image Comparison**: View original and converted images side-by-side.
 - **Custom Save Folder**: Set a default save location for convenience.
 - **Robustness**: Error handling and logging for reliable operation.
 
 ---
+
+## Screenshots
+V1:
+*![alt text](image.png)*
+
 
 ## Installation (For Developers)
 
@@ -89,9 +94,6 @@ To create a standalone `.exe` (Windows):
 5. **Set Folder**: Set a default save folder for convenience.
 6. **Toggle Theme**: Switch between light and dark modes.
 
-## Screenshots
-
-*(Add your screenshot here)*
 
 ## Contributing
 

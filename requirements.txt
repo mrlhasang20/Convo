@@ -2,3 +2,4 @@ customtkinter
 Pillow
 pillow-heif
 pyinstaller
+rawpy
