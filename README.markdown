@@ -1,4 +1,4 @@
-# Convo
+# Convo- V2
 
 A user-friendly desktop application to convert RAW ( CR2, AR2, NEF) and  othere images format (JPG, PNG, HEIC) to JPEG, with features for batch conversion, image comparison, and customizable save locations without losing quality.
 
