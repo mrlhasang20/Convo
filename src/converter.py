@@ -13,7 +13,7 @@ class ImageConverter:
 
     def convert_image(self, img_path):
         if img_path.lower().endswith(('.jpg', '.jpeg')):
-            raise ValueError("File is already JPG format")
+            raise ValueError("File is   already JPG format")
             
         try:
             # RAW file handling
@@ -30,9 +30,9 @@ class ImageConverter:
                 with Image.open(img_path) as img:
                     image = img.convert("RGB") if img.mode != "RGB" else img.copy()
 
-            # Size optimization
-            if max(image.size) > self.max_size:
-                image.thumbnail((self.max_size, self.max_size))
+            # # Size optimization
+            # if max(image.size) > self.max_size:
+            #     image.thumbnail((self.max_size, self.max_size))
                 
             filename = os.path.basename(img_path).rsplit(".", 1)[0] + ".jpg"
             self.converted_images[img_path] = (image, filename)
