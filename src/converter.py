@@ -30,10 +30,6 @@ class ImageConverter:
                 with Image.open(img_path) as img:
                     image = img.convert("RGB") if img.mode != "RGB" else img.copy()
 
-            # # Size optimization
-            # if max(image.size) > self.max_size:
-            #     image.thumbnail((self.max_size, self.max_size))
-                
             filename = os.path.basename(img_path).rsplit(".", 1)[0] + ".jpg"
             self.converted_images[img_path] = (image, filename)
             
