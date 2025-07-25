@@ -1,3 +1,5 @@
+# converting the hig-end images like from iphone and others to the normal JPEG with same eqaul quality
+
 from PIL import Image
 import pillow_heif
 import os
